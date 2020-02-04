@@ -1,0 +1,137 @@
+.main-wrapper {
+    position: relative;
+}
+
+/*gGet Paid Quickly Section*/
+
+.get-paid-quickly {
+    position: relative;
+    background-image: url('../images/room.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 500px;
+    background-position: center;
+}
+
+.form-get-paid-quickly {
+    height: 420px;
+    border-radius: 8px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transform: translatey(25%);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 40px;
+    z-index: 5;
+}
+
+.get-paid-quickly-text-section {
+    /* margin-top: 60px; */
+    z-index: 6;
+}
+
+.Rounded {
+    background-color: lightgray;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+
+.second-part-of-first {
+    margin-top: 70px;
+}
+
+.icon-of-item-first-section {
+    color: #6278df;
+    font-size: 2rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border-color: gray;
+    padding: 5px;
+}
+
+.BlueCover {
+    background-color: midnightblue;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.ikona-ikona {
+    color: green;
+}
+
+.input-style {
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    padding: 10px;
+    font-size: 1.3rem;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: -1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sentBtn {
+    position: relative;
+    border: 0px;
+    margin: 0;
+    box-shadow: 2.5px 4.33px 30px 0 white;
+    color: #6278df;
+    padding: 15px 30px;
+    border-radius: 6px;
+    color: white;
+}
+
+.titulli-span-section2 {
+    margin-top: 100px;
+}
+
+@media(max-width: 991px) {
+    .elementet .second-part-of-first {
+        transform: translateY(100%);
+    }
+    .elementet2 .elementet2-inside {
+        transform: translateY(35%);
+    }
+}
+
+@media(max-width:524px) {
+    .form-get-paid-quickly {
+        transform: translateY(4%);
+        height: auto;
+    }
+}
+
+@media(max-width: 524px) {
+    .elementet .second-part-of-first {
+        transform: translateY(90%);
+    }
+    .elementet2 .elementet2-inside {
+        transform: translateY(28%);
+    }
+}
+
+.housing-steps-image-info-area {
+    position: relative;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.responsive2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
