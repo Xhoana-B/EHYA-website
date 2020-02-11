@@ -11,14 +11,13 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animate.min.css">
     <title>EHYA</title>
 </head>
 
 <body>
     <div class="main-wrapper">
         <!--Header Section-->
-        <div class=" container header-wrapper">
+        <div class=" container header-wrapper" id="home">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <a class="navbar-brand" href="file:///C:/Users/Xhoana%20Balla/Desktop/EHYA/index.html?#">
                     <img src="./images/logo.png" width="100" height="50" class="d-inline-block align-top" alt="">
@@ -31,19 +30,19 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Get Paid Quickly</a>
+                            <a class="nav-link" href="#getPaidQuickly">Get Paid Quickly</a>
                         </li>
                         <li class="nav-item active ">
-                            <a class="nav-link" href="#">Housting Steps</a>
+                            <a class="nav-link" href="#houstingSteps">Housting Steps</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Our Features</a>
+                            <a class="nav-link" href="#ourFeatures">Our Features</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Our Blog</a>
+                            <a class="nav-link" href="#ourBlog">Our Blog</a>
                         </li>
                     </ul>
                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Get it now</button>
@@ -51,7 +50,7 @@
         </div>
 
         <!--Get Paid Quickly-->
-        <div class="elementet">
+        <div class="elementet" id="getPaidQuickly">
             <div class="get-paid-quickly img-fluid mx-4 bg-info">
                 <div class="BlueCover order"></div>
                 <div class="container d-flex flex-column flex-lg-row forma-dhe-teksti ">
@@ -104,7 +103,7 @@
                 </div>
             </div>
             <div class=" container second-part-of-first bg-white">
-                <span class="Rounded" style="color: green;">
+                <span class="Rounded" style="color: green; font-size: small;">
                     GET PAID QUICKLY
                 </span>
                 <div class="row mt-4 " style="margin-bottom: 100px;">
@@ -112,14 +111,14 @@
                         <h1>Let's rent out your home, enjoy!</h1>
                     </div>
                     <div class="col-sm item-with-icon d-flex">
-                        <span class="fas fa-home icon-of-item-first-section pt-2"></span>
+                        <span class="fas fa-home icon-of-item-first-section home-icon pt-2"></span>
                         <div class="text-near-icon">
                             <h4>Put your home to work</h4>
                             <p>No matter what kind of home you have to share, you can increase your earnings.</p>
                         </div>
                     </div>
                     <div class="col-sm  item-with-icon d-flex">
-                        <span class="fas fa-user icon-of-item-first-section pt-2"></span>
+                        <span class="fas fa-user icon-of-item-first-section home-icon pt-2"></span>
                         <div class="text-near-icon">
                             <h4>Screen guests quickly</h4>
                             <p>Get to know guests before they stay by reading reviews to keep your home safe.</p>
@@ -131,54 +130,57 @@
         </div>
 
         <!--Housting Steps-->
-        <div class="elementet2 mb-5">
+        <div class="elementet2 mb-5" id="houstingSteps ">
             <div class="elementet2-inside">
                 <div class="container d-flex justify-content-center   housing-steps-image-info-area ">
-                    <div class="text-second-section text-center pt-4">
-                        <span class="Rounded " style="color: green;">
+                    <div class="text-second-section text-center pt-4 my-4">
+                        <span class="Rounded " style="color: green; font-size: small;">
                             HOUSTING STEPS
                         </span>
-                        <h1>Rent out your home in 3 steps</h1>
+                        <h1 class="my-3">Rent out your home in 3 steps</h1>
                         <p> Tired of secretive bids? Our platform provides a transparent rental auction with the ability
                             to
                             submit custom offers.</p>
                     </div>
                 </div>
-                <div class="housing-steps-image-text-elements  d-flex flex-column flex-md-row">
-                    <div class="col-md-6 order-md-2 p-0">
+                <div class="housing-steps-image-text-elements  d-flex flex-column flex-md-row my-4">
+                    <div class="col-md-6 order-md-2 p-0 ">
                         <div class=" col">
                             <div class="col-sm item-with-icon mt-5 pt-4 d-flex">
-                                <span class="dot"></span>
-                                <!-- <span class="fas fa-circle icon-of-item-first-section pt-2"></span> -->
 
+                                <span class="fas fa-circle icon-of-item-first-section pt-2 ">
+                                    <p class="numbers-on-icon">1</p>
+                                </span>
                                 <div class="text-near-icon">
                                     <h3>Tell us about your space</h3>
-                                    <p>Share any space from a shared living room to a second home and everything
-                                        in-between.
+                                    <p>You are free to choose your own schedule,prices and requirements for guests.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class=" col">
-                            <div class="col-sm item-with-icon mt-4 mt-4 d-flex">
+                            <div class="col-sm item-with-icon  mt-4 d-flex">
 
-                                <span class="fas fa-circle icon-of-item-first-section pt-2"></span>
+                                <span class="fas fa-circle icon-of-item-first-section pt-2 ">
+                                    <p class="numbers-on-icon">2</p>
+                                </span>
 
                                 <div class="text-near-icon">
-                                    <h3>Tell us about your space</h3>
-                                    <p>Share any space from a shared living room to a second home and everything
-                                        in-between.
+                                    <h3>Decide how you want to host</h3>
+                                    <p>Once your listing is live, qualified guests can reach out and you can message them.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class=" col">
-                            <div class="col-sm item-with-icon mt-4 pt-4  d-flex">
+                            <div class="col-sm item-with-icon mt-4   d-flex">
 
-                                <span class="fas fa-circle icon-of-item-first-section pt-2"></span>
+                                <span class="fas fa-circle icon-of-item-first-section pt-2 ">
+                                    <p class="numbers-on-icon">3</p>
+                                </span>
 
                                 <div class="text-near-icon">
-                                    <h3>Tell us about your space</h3>
+                                    <h3>Welcome your first guest</h3>
                                     <p>Share any space from a shared living room to a second home and everything
                                         in-between.
                                     </p>
@@ -215,11 +217,11 @@
 
         <!-- <hr> -->
         <!--Our Features-->
-        <div class="elementet3 bg-light">
+        <div class="elementet3 bg-light" id="ourFeatures">
             <div class="elementet3-inside">
                 <div class="container d-flex justify-content-center  our-features-section mb-5 ">
                     <div class=" mt-5 text-second-section text-center pt-4">
-                        <span class="Rounded " style="color: green;">
+                        <span class="Rounded " style="color: green; font-size: small;">
                             OUR FEATURES
                         </span>
                         <h1>You're in good hoisting platform</h1>
@@ -236,6 +238,7 @@
                             want it.</p>
 
                         <div class=" col ikona-text-section3 d-flex">
+                            <div class="triangle-right"></div>
                             <span class="  fas fa-circle icon-of-item-first-section pt-2 "></span>
 
                             <div class="text-near-icon">
@@ -289,12 +292,12 @@
 
 
         <!--Our Blog-->
-        <div class="our-blog-section">
-            <hr class="container mt-5 ">
+        <div class="our-blog-section" id="ourBlog">
+
             <div class="container elementet-inside-our-blog">
                 <div class="container d-flex justify-content-center  our-features-section mb-5 ">
                     <div class=" mt-5 text-second-section text-center pt-4">
-                        <span class="Rounded " style="color: green;">
+                        <span class="Rounded " style="color: green; font-size: small;">
                             OUR BLOG
                         </span>
                         <h1>Don't miss our recent article</h1>
@@ -306,11 +309,11 @@
                     <div class="row d-flex">
                         <div class="col-md-4">
 
-                            <div class="card card-edited" style="height:500px; border-radius: 10px;">
+                            <div class="card card-edited border-0 my-4" style="height:500px; border-radius: 10px;">
                                 <!-- <div class="darkCover order"></div> -->
                                 <div class="user-image-card">
-                                    <img src="./images/portret.PNG" class="small-image rounded-circle" width="50" height="50"
-                                        style="position: absolute; bottom: 70px; left: 14px;">
+                                    <img src="./images/portret.PNG" class="small-image rounded-circle" width="50"
+                                        height="50" style="position: absolute; bottom: 70px; left: 14px;">
                                 </div>
                                 <div class="text-for-second-card d-flex justify-content-end container"
                                     style="position: absolute; bottom: 0;">
@@ -319,13 +322,13 @@
 
 
 
-                                <div class="overlay">
-                                    <div class="overlay-img ">
+                                <div class="overlay " style="border-radius: 10px;">
+                                    <div class="overlay-img">
                                         <!-- <div class="user-image-card">
                                             <img src="./images/portret.PNG" class="rounded-circle" width="50"
                                                 height="50" style="position: absolute; bottom: 285px; right: 15px;">
                                         </div> -->
-                                        <img src="./images/room.jpg" class="card-img-top " alt="..." >
+                                        <img src="./images/room.jpg" class="card-img-top " alt="...">
                                     </div>
                                     <div class="container my-4">
                                         <p>Lifestyle - Jun 28,2019</p>
@@ -342,11 +345,11 @@
                         </div>
                         <div class="col-md-4">
 
-                            <div class="card card-edited" style="height:500px; border-radius: 10px;">
+                            <div class="card card-edited border-0 my-4" style="height:500px; border-radius: 10px;">
                                 <!-- <div class="darkCover order"></div> -->
-                                <div class="user-image-card " >
-                                    <img src="./images/portret.PNG" class=" small-image rounded-circle" width="50" height="50"
-                                        style="position: absolute; bottom: 70px; left: 14px;">
+                                <div class="user-image-card ">
+                                    <img src="./images/portret.PNG" class=" small-image rounded-circle" width="50"
+                                        height="50" style="position: absolute; bottom: 70px; left: 14px;">
                                 </div>
                                 <div class="text-for-second-card d-flex justify-content-end container"
                                     style="position: absolute; bottom: 0;">
@@ -355,7 +358,7 @@
 
 
 
-                                <div class="overlay">
+                                <div class="overlay" style="border-radius: 10px;">
                                     <div class="overlay-img">
                                         <div class="user-image-card">
                                             <!-- <img src="./images/portret.PNG" class="rounded-circle" width="50"
@@ -378,7 +381,7 @@
                         </div>
 
                         <div class="col-md-4 ">
-                            <div class="card card-edited " style="height:500px; border-radius: 10px;">
+                            <div class="card card-edited  border-0 my-4" style="height:500px; border-radius: 10px;">
 
                                 <div class="container d-flex justify-content-center">
                                     <div class=" mt-5 text-second-section text-center pt-5 ">
@@ -462,26 +465,41 @@
 
 
                 </div>
-                <div class="container mb-5">
-                    <div class="row">
-                        <div class="col-sm">
-                            <div>
-                                <img src="./images/logo.png" width="100" height="50" class="d-inline-block align-top"
-                                    alt="">
-                            </div>
-                            <div class="teksti-near_icone">
 
-                                <div class="texti-ehya my-2">
-                                    Build a modern and creative website with crealand
-                                </div>
-                                <div class=" all-social media icons d-flex w-100">
-                                    <span class="rounded-icon "><i class="fas fa-flag"></i></span>
-                                    <span class="rounded-icon "><i class="fas fa-flag"></i></span>
-                                    <span class="rounded-icon "><i class="fas fa-flag"></i></span>
-                                    <span class="rounded-icon "><i class="fas fa-flag"></i></span>
+
+
+                <!---->
+                <div class="container mb-5 more-about-company-services d-flex">
+                    <div class="logoSocialMedia w-25 mb-4 ">
+                        <div class="col-sm pl-0">
+                           
+                                
+                                <img src="./images/logo2.png" width="50" height="20" class=""
+                                    alt="">
+                            
+                        </div>
+
+                        <div class="teksti-near_icone mb-3">
+
+                            <div class="texti-ehya my-2">
+                                Build a modern and creative website with crealand
+                            </div>
+                            <div class="row">
+                                <div class=" all-social-media-icons d-flex w-100">
+                                    <span class="fab fa-google social-media-icons mx-2 mt-2 pl-2">
+                                    </span>
+                                    <span class="fab fa-twitter social-media-icons mx-2  mt-2">
+                                    </span>
+                                    <span class="fab fa-instagram social-media-icons mx-2 mt-2">
+                                    </span>
+                                    <span class="fab fa-linkedin social-media-icons mx-2 mt-2  ">
+                                    </span>
                                 </div>
                             </div>
+
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-sm">
                             <ul style="list-style-type:none">
                                 <strong>Product</strong>
@@ -492,11 +510,14 @@
                                 <li class="my-2">Pricing</li>
                             </ul>
                         </div>
+
+
+
                         <div class="col-sm">
-                            
+
                             <ul style="list-style-type:none">
                                 <strong>Services</strong>
-                                <li class="my-2" >Documentation</li>
+                                <li class="my-2">Documentation</li>
                                 <li>LandingPage</li>
                                 <li class="my-2">Design</li>
                                 <li>Themes</li>
@@ -521,26 +542,25 @@
                                 <li>Licence</li>
                                 <li class="my-2">Changelog</li>
 
-                
-                        </ul>
+
+                            </ul>
                         </div>
-                
-                        </div>
-                    
+                    </div>
                 </div>
+
+
             </div>
         </div>
 
 
 
-        <footer class="footer-area align-center">
-            <div class="mx-3 footer-container container">
-                <!-- <i class="fas fa-heart-circle"></i> -->
-                <div class="copyright ">
-                  
-                    <p class="text  align-center display-7">© Copyright 2019, Crafted with love. 
-                           </p>
-                </div>
+
+        <footer class=" container footer-area d-flex justify-content-center ">
+            <!-- <span class="fas fa-heart"></span> -->
+            <div class="copyright ">
+                <p class="text  align-center display-7">© Copyright 2019, Crafted with love.
+                </p>
+
             </div>
         </footer>
 

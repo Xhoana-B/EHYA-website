@@ -34,7 +34,7 @@
     background-color: rgb(215, 240, 232);
     /* opacity: 25%; */
     border-radius: 20px 20px 20px 20px;
-    padding: 5px;
+    padding: 7px;
 }
 
 .second-part-of-first {
@@ -47,7 +47,22 @@
     margin-right: 1rem;
     border-radius: 10px;
     border-color: gray;
-    padding: 5px;
+}
+
+.fa-circle:before {
+    border-color: gainsboro;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 26px;
+}
+
+.home-icon::before {
+    border-color: gainsboro;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 14px;
 }
 
 .BlueCover {
@@ -64,6 +79,9 @@
 
 .ikona-ikona {
     color: green;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .input-style {
@@ -104,6 +122,12 @@
     }
     .elementet3 {
         transform: translateY(30%);
+    }
+    .our-blog-section {
+        transform: translateY(18%);
+    }
+    .footer-area {
+        transform: translateY(1810%);
     }
 }
 
@@ -208,6 +232,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    box-shadow: 0px 0px 1px #888888;
 }
 
 .overlay {
@@ -225,7 +250,6 @@
 .card-edited:hover .overlay {
     height: 100%;
     animation-duration: 0.1s;
-   
 }
 
 .card-edited:hover .small-image {
@@ -241,17 +265,16 @@
         z-index: 0;
         right: 0;
         opacity: 1;
-     
     }
     50% {
         opacity: 0.5;
     }
     100% {
         bottom: 285px;
+        left: 250px;
         right: 15px;
         z-index: 11;
         opacity: 1;
-    
     }
 }
 
@@ -272,3 +295,44 @@
     background-position: center;
     /* background-position-y: -11%; */
 }
+
+.numbers-on-icon {
+    transform: translate(17px, -22px);
+    color: white;
+    font-size: small;
+    z-index: 10;
+    position: absolute;
+}
+
+.triangle-right {
+    height: 0;
+    transform: translate(28px, 20px);
+    color: white;
+    border-top: 4px solid transparent;
+    border-left: 13px solid #f7f4f4;
+    border-bottom: 4px solid transparent;
+}
+
+/* @media(max-width: 1200px) {
+    .our-blog-section .more-about-companay-services {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+.social-media-icons {
+    color: #6278df;
+    font-size: 2rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+@media(max-width: 992px) {
+    .more-about-company-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
