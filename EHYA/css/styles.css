@@ -120,7 +120,7 @@
     margin-top: 100px;
 }
 
-@media(max-width: 991px) {
+@media(min-width:450px)and(max-width:991px) {
     .elementet .second-part-of-first {
         transform: translateY(100%);
     }
@@ -128,15 +128,37 @@
         transform: translateY(25%);
     }
     .elementet3 {
-        transform: translateY(30%);
+        transform: translateY(35%);
     }
     .our-blog-section {
         transform: translateY(18%);
     }
     .footer-area {
-        transform: translateY(1810%);
+        transform: translateY(1000%);
     }
 }
+
+@media(max-width:450px) {
+    .elementet .second-part-of-first {
+        transform: translateY(100%);
+    }
+    .elementet2 .elementet2-inside {
+        transform: translateY(22%);
+    }
+    .elementet3 {
+        transform: translateY(27%);
+    }
+    .our-blog-section {
+        transform: translateY(12%);
+    }
+    .footer-area {
+        transform: translateY(1240%);
+    }
+}
+
+
+
+
 
 @media(max-width:524px) {
     .form-get-paid-quickly {
@@ -145,14 +167,14 @@
     }
 }
 
-@media(max-width: 524px) {
+/* @media(max-width: 524px) {
     .elementet .second-part-of-first {
         transform: translateY(90%);
     }
     .elementet2 .elementet2-inside {
         transform: translateY(28%);
     }
-}
+} */
 
 .housing-steps-image-info-area {
     position: relative;
@@ -341,7 +363,7 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1240px) {
     .card-edited .overlay {
         height: 100%;
         animation-duration: 0.1s;
@@ -374,19 +396,6 @@
     align-items: center;
 }
 
-/* .logoSocialMedia {
-    width: 25%;
-}
-
-@media (min-width: 576px) {
-    .logoSocialMedia {
-        width: 100%;
-    }
-} */
-
-/* .col-sm-12{
-    margin-left: 20px;
-} */
 
 @media(max-width:1300px) {
     .user-image-card {
@@ -399,73 +408,62 @@
         top: 136px;
         right: 15px;
     }
-
-/*media query per nje img koti*/
-
-@media (max-width:1300px) and (min-width:997px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 136px;
-        right: 15px;
+    /*media query per nje img koti*/
+    @media (max-width:1300px) and (min-width:997px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 136px;
+            right: 15px;
+        }
     }
-}
-
-@media(max-width:997px) and (min-width:772px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 90px;
-        right: 11px;
+    @media(max-width:997px) and (min-width:772px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 90px;
+            right: 11px;
+        }
     }
-}
-
-@media(max-width:772px) and (min-width:765px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 96px;
-        right: 12px;
+    @media(max-width:772px) and (min-width:765px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 96px;
+            right: 12px;
+        }
     }
-}
-
-@media(max-width:765px) and (min-width:574px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 260px;
-        right: 30px;
+    @media(max-width:765px) and (min-width:574px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 260px;
+            right: 30px;
+        }
     }
-}
-
-@media(max-width:574px) and (min-width:441px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 265px;
-        right: 30px;
+    @media(max-width:574px) and (min-width:441px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 265px;
+            right: 30px;
+        }
     }
-}
-
-@media(max-width:441px) and (min-width:0px) {
-    .user-image-card {
-        position: absolute;
-        z-index: 99999;
-        top: 170px;
-        right: 30px;
+    @media(max-width:441px) and (min-width:0px) {
+        .user-image-card {
+            position: absolute;
+            z-index: 99999;
+            top: 170px;
+            right: 30px;
+        }
     }
-}
-
-/*End of media query per nje img koti*/
-
-.user-image-card img {
-    position: initial!important;
-    bottom: initial!important;
-    left: initial!important;
-}
-
-.card-edited .small-image {
-    animation: initial!important;
-}
-
+    /*End of media query per nje img koti*/
+    .user-image-card img {
+        position: initial!important;
+        bottom: initial!important;
+        left: initial!important;
+    }
+    .card-edited .small-image {
+        animation: initial!important;
+    }
 }
